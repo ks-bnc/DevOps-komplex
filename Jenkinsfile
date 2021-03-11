@@ -12,7 +12,7 @@ stages {
     stage ("test") {
        steps {
          sh 'mvn --version'
-          sh "/usr/bin/docker ps
+          sh "/usr/bin/docker ps"
         echo "testing the application..."
         }
        }
