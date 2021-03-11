@@ -1,4 +1,5 @@
 pipeline {
+  PATH = "$PATH:/usr/bin"
   agent {
     docker { 
       image 'maven:latest' }
