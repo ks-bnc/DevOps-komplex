@@ -1,5 +1,6 @@
 pipeline {
   agent any
+  docker {image maven:latest}
 stages {
   stage ("build") {
       steps {
