@@ -16,7 +16,7 @@ stages {
     stage ("deploy") {
         steps {
           echo "deploying the application"
-          sh "docker push kissbence599/jenkins-push"
+          sh "docker push kissbence599"
       }
     }
   }
