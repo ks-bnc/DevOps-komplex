@@ -16,12 +16,7 @@ stages {
     stage ("deploy") {
         steps {
           echo "deploying the application"
-          script { 
-                    docker.withRegistry( '', registryCredential ) { 
-                        dockerImage.push() 
-
-                    }
-        }
+          sh "docker push kissbence599/jenkins-push"
       }
     }
   }
