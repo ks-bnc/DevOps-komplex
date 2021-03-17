@@ -16,7 +16,6 @@ stages {
     stage ("deploy") {
         steps {
           echo "deploying the application"
-          sh "docker push maven:lts"
       }
     }
   }
