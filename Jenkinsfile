@@ -1,5 +1,5 @@
 pipeline {
-  agent {docker {image 'maven:latest'}}
+  agent any
 stages {
   stage ("build") {
       steps {
@@ -9,7 +9,6 @@ stages {
       }
     stage ("test") {
        steps {
-       sh "mvn --version"
         echo "testing the application..."
         }
        }
