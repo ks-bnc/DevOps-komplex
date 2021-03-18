@@ -4,7 +4,7 @@ stages {
   stage ("build") {
       steps {
         
-        echo "building the application..."
+        echo "building the app..."
        }
       }
     stage ("test") {
