@@ -9,7 +9,7 @@ stages {
       }
     stage ("test") {
        steps {
-        echo "na van mar ertesites jenkins feleeee?????????..."
+        echo "na van mar ertesites jenkin?..."
         }
        }
     stage ("deploy") {
