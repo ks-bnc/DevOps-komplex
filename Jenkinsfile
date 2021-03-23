@@ -9,7 +9,7 @@ stages {
       }
     stage ("test") {
        steps {
-        echo "na van mar ertesites jenkifgklgéklngélerqnéwlkrnn?..."
+        echo "nfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.."
         }
        }
     stage ("deploy") {
