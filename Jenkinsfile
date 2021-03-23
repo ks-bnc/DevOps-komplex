@@ -9,7 +9,7 @@ stages {
       }
     stage ("test") {
        steps {
-        echo "nffdlknvékm,-.asdngas-ngd, a-v dlasdíffk."
+        echo "nffdlknvékm,-.asdng a-v dlasdíffk."
         }
        }
     stage ("deploy") {
