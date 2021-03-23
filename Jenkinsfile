@@ -9,7 +9,7 @@ stages {
       }
     stage ("test") {
        steps {
-        echo "nfffffffgffffsdddddddddkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk."
+        echo "nfffffffgffffsddddkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk."
         }
        }
     stage ("deploy") {
